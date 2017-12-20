@@ -1,4 +1,4 @@
-update=11/10/2017 9:37:22 AM
+update=12/18/2017 6:40:42 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/svcgu/Documents/KiCAD/lib/custom_kicad
+LibName30=C:/Users/svcgu/OneDrive/Documents/KICAD/lib/custom_kicad

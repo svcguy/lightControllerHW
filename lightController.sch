@@ -1564,20 +1564,20 @@ L R R15
 U 1 1 5A08646A
 P 3850 2200
 F 0 "R15" H 4000 2250 50  0000 C CNN
-F 1 "1" H 3950 2150 50  0000 C CNN
+F 1 "1k" H 3950 2150 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3780 2200 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 3850 2200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" H 3850 2200 50  0001 C CNN
 F 4 "Yaego" H 3850 2200 60  0001 C CNN "MFN"
-F 5 "RT1206DRD071RL" H 3850 2200 60  0001 C CNN "MFP"
-F 6 "311-2927-1-ND" H 3850 2200 60  0001 C CNN "S1PN"
-F 7 "https://www.digikey.com/product-detail/en/yageo/RT1206DRD071RL/311-2927-1-ND/6129346" H 3850 2200 60  0001 C CNN "S1PL"
+F 5 "RC1206FR-071KL" H 3850 2200 60  0001 C CNN "MFP"
+F 6 "311-1.00KFRCT-ND" H 3850 2200 60  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334" H 3850 2200 60  0001 C CNN "S1PL"
 F 8 "Second Source Part Number" H 3850 2200 60  0001 C CNN "S2PN"
 F 9 "Second Source Part Link" H 3850 2200 60  0001 C CNN "S2PL"
-F 10 "0.5%" H 3850 2200 60  0001 C CNN "Characteristics"
-F 11 "RES SMD 1 OHM 0.5% 1/4W 1206" H 3850 2200 60  0001 C CNN "Description"
+F 10 "~" H 3850 2200 60  0001 C CNN "Characteristics"
+F 11 "RES SMD 1K OHM 1% 1/4W 1206" H 3850 2200 60  0001 C CNN "Description"
 F 12 "~" H 3850 2200 60  0001 C CNN "PKG_ID"
-F 13 "SPEC" H 3850 2200 60  0001 C CNN "Source"
-F 14 "Y" H 3850 2200 60  0001 C CNN "Critical"
+F 13 "ANY" H 3850 2200 60  0001 C CNN "Source"
+F 14 "N" H 3850 2200 60  0001 C CNN "Critical"
 F 15 "~" H 3850 2200 60  0001 C CNN "Notes"
 	1    3850 2200
 	1    0    0    -1  
@@ -1995,17 +1995,17 @@ L R R17
 U 1 1 5A087B2F
 P 5100 3000
 F 0 "R17" V 5180 3000 50  0000 C CNN
-F 1 "4.99M" V 5250 3000 50  0000 C CNN
+F 1 "4.02k" V 5250 3000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5030 3000 50  0001 C CNN
-F 3 "" H 5100 3000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" H 5100 3000 50  0001 C CNN
 F 4 "Yaego" H 5100 3000 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT4M99" H 5100 3000 60  0001 C CNN "MFP"
-F 6 "RMCF0805FT4M99CT-ND" H 5100 3000 60  0001 C CNN "S1PN"
-F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT4M99/RMCF0805FT4M99CT-ND/2418420" H 5100 3000 60  0001 C CNN "S1PL"
+F 5 "RC0805FR-074K02L" H 5100 3000 60  0001 C CNN "MFP"
+F 6 "311-4.02KCRCT-ND" H 5100 3000 60  0001 C CNN "S1PN"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-074K02L/311-4.02KCRCT-ND/730854" H 5100 3000 60  0001 C CNN "S1PL"
 F 8 "Second Source Part Number" H 5100 3000 60  0001 C CNN "S2PN"
 F 9 "Second Source Part Link" H 5100 3000 60  0001 C CNN "S2PL"
 F 10 "1%" H 5100 3000 60  0001 C CNN "Characteristics"
-F 11 "RES SMD 4.99M OHM 1% 1/8W 0805" H 5100 3000 60  0001 C CNN "Description"
+F 11 "RES SMD 4.02K OHM 1% 1/8W 0805" H 5100 3000 60  0001 C CNN "Description"
 F 12 "~" H 5100 3000 60  0001 C CNN "PKG_ID"
 F 13 "ANY" H 5100 3000 60  0001 C CNN "Source"
 F 14 "N" H 5100 3000 60  0001 C CNN "Critical"
@@ -2066,9 +2066,9 @@ Connection ~ 5750 2050
 Text Label 5950 2050 0    60   ~ 0
 I_SNS
 Text Notes 3950 1900 0    60   ~ 0
-V = 0 - 1mV
+V = 0 - 1V
 Text Notes 4900 2800 0    60   ~ 0
-Av = 4990
+Av = 5
 Text Notes 3950 1800 0    60   ~ 0
 I = 0 - 10A
 $Comp
@@ -2361,7 +2361,7 @@ Wire Wire Line
 Text Notes 5550 1800 0    60   ~ 0
 I = 0 - 10A
 Text Notes 5550 1950 0    60   ~ 0
-V_I_SNS = 0 - 4.99V
+V_I_SNS = 0 - 5V
 Text Notes 2950 2000 0    60   ~ 0
 Vcc/1001
 $Comp
